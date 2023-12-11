@@ -2,3 +2,72 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    align-content: center;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.312rem;
+    color: grey;
+}
+
+header {
+    padding: 1rem 0 1rem;
+    text-align: center;
+    width: 90%;
+    font-size: 3.125rem;
+    font-weight: 400;
+}
+
+.url {
+    padding: 1rem 0 1rem;
+    text-align: center;
+    color: aquamarine;
+    font-size: 1rem;
+}
+
+.phone {
+    margin: .1rem 0 .1rem;
+    width: 35%;
+    height: auto;
+}
+
+.travel-guide {
+    padding: 1rem 0 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.camping {
+    padding: 1rem 0 1rem;
+    align-content: center;
+    width: 80%;
+}
+
+.icon {
+    padding: 1rem 0 1rem;
+    align-content: center;
+}
+
+.bottom {
+    padding: 1rem 0 1rem;
+    align-content: center;
+}
+
+.footer {
+    width: 100%;
+    align-items: flex-end;
+}
