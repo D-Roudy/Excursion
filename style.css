@@ -14,6 +14,12 @@ body {
     align-content: center;
 }
 
+h1 {
+    font-size: 55px;
+    font-weight: normal;
+
+}
+
 h2 {
     font-size: 2.625rem;
     font-weight: 300;
@@ -27,21 +33,18 @@ h4 {
 header {
     padding: 1rem 0 1rem;
     text-align: center;
-    width: 90%;
-    font-size: 3.125rem;
-    font-weight: 400;
 }
 
 .url {
     padding: 1rem 0 1rem;
     text-align: center;
-    color: aquamarine;
     font-size: 1rem;
+    text-decoration: aquamarine;
 }
 
 .phone {
+    text-align: center;
     margin: .1rem 0 .1rem;
-    height: auto;
 }
 
 .travel-guide {
@@ -52,21 +55,24 @@ header {
 
 .camping {
     padding: 1rem 0 1rem;
-    align-content: center;
-    width: 80%;
+    text-align: center;
 }
 
 .icon {
     padding: 1rem 0 1rem;
-    align-content: center;
+    text-align: center;
 }
 
 .bottom {
     padding: 1rem 0 1rem;
-    align-content: center;
+    text-align: center;
 }
 
 .footer {
-    width: 100%;
-    align-items: flex-end;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 1rem;
 }
